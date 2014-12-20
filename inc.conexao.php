@@ -2,7 +2,7 @@
 //nestas variáveis guardamos os dados necesssários para a conexão
 $host = "localhost"; // aqui é o endereço onde está o banco
 $usuario = "root";  // aqui é o usuário cadastrado do banco
-$senha = "123456";      // neste campo é a senha, neste caso é vazio
+$senha = "";      // neste campo é a senha, neste caso é vazio
 $banco = "ProveAprove"; // por último é o nome do banco
 
 // pedimos a função para nos dar uma conexão e guardamos em uma variável $conexao

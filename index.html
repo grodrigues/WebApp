@@ -37,7 +37,7 @@
 			<a href="#" class="menu">Menu</a>
 
 			<h1 class="logo">
-				<a href="" class="logo-link">Logo</a>
+				<a href="" class="logo-link">Prove Aprove</a>
 			</h1>
 
 			<figure class="avatar-usuario">
@@ -72,6 +72,7 @@
 					<li class="ingrediente-receita">Ingrediente 2</li>
 					<li class="ingrediente-receita">Ingrediente 3</li>
 				</ul>
+				<img src="" alt="image receita" class="img-receita">
 				<p class="preparo-receita">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione.</p>
 				<p class="rendimento-receita">10 porções</p>
 				<h3 class="categoria-receita">CATEGORIA</h3>
@@ -102,40 +103,46 @@
 	<div class="canvas-perfil-login col-sm-3" id="canvas-perfil-login">
 		<!-- deslogado -->
 		<section class="deslogado" id="deslogado">
-			<article class="acesso">
+			<article class="acesso col-md" >
 				<!-- usuário cadastrado -->
 				<div class="usuario-cadastrado">
+					<h1 class="logo-2">
+						<a href="" class="link-logo2"><span>Logo2</span></a>
+					</h1>
 					<form class="form-acesso" id="form-acesso" action="" method="">
 						<h2 class="form-titulo">Acesso</h2>
 
 						<fieldset>
-							<label for="acesso-login">Login</label>
-							<input type="text" id="acesso-login" name="Login" />
+							<label for="acesso-login" class="acesso-login">Login</label>
+							<input type="text" placeholder="Login" id="acesso-login" name="Login" />
 						</fieldset>
 
 						<fieldset>
-							<label for="acesso-senha" >Senha</label>
-							<input type="password" id="acesso-senha" name="Senha" />
+							<label for="acesso-senha" class="acesso-senha">Senha</label>
+							<input type="password" placeholder="Senha" id="acesso-senha" name="Senha" />
 						</fieldset>
 
-						<input type="submit" value="entrar" class="input-submit" />
-						<a href="#" title="Clique aqui se você esqueceu a sua senha" class="esqueci-senha">esqueci a senha</a>
+						<input type="submit" value="Entrar" class="input-submit" />
+						<a href="#" title="Clique aqui se você esqueceu a sua senha" class="esqueci-senha">Esqueci a Senha</a>
 					</form>
 
 					<p class="retorno-formulario">Entrando...</p>
 				</div>
 
 				<!-- esqueci a senha -->
-				<div class="esqueci-senha">
+				<div class="esqueci-senha2">
+					<h1 class="logo-2">
+						<a href="" class="link-logo2"><span>Logo2</span></a>
+					</h1>
 					<form class="form-esqueci-senha" id="form-esqueci-senha" action="" method="">
 						<h2 class="form-titulo">Esqueci Senha</h2>
 
 						<fieldset>
-							<label for="esqueci-senha">Login</label>
-							<input type="email" id="esqueci-senha" name="Login" />
+							<label for="esqueci-senha" class="esqueci-senha3">Login</label>
+							<input type="email" class="input-login" id="esqueci-senha" placeholder="Login" name="Login" />
 						</fieldset>
 
-						<input type="submit" value="entrar" class="input-submit" />
+						<input type="submit" value="Enviar" class="input-submit2" />
 					</form>
 
 					<p class="retorno-formulario">Os passos para mudar de senha estão no seu e-mail</p>
@@ -145,23 +152,26 @@
 			<article class="cadastro">
 				<!-- formulario cadastro-->
 				<div class="novo-usuario">
+					<h1 class="logo-2">
+						<a href="" class="link-logo2"><span>Logo2</span></a>
+					</h1>
 					<form class="form-cadastro" id="form-cadastro" action="" method="">
 						<h2 class="form-titulo">Cadastro</h2>
 
 						<fieldset>
-							<label for="cadastro-login">Login</label>
-							<input type="text" id="cadastro-login" name="Login" />
+							<label for="cadastro-login" class="cadastro-login">Login</label>
+							<input class="input-cadastro" type="text" id="cadastro-login" placeholder="Login" name="Login" />
 						</fieldset>
 
 						<fieldset>
-							<label for="cadastro-senha" >Senha</label>
-							<input type="password" id="cadastro-senha" name="Senha" />
+							<label for="cadastro-senha" class="cadastro-senha">Senha</label>
+							<input class="input-cadastro" type="password" placeholder="Senha" id="cadastro-senha" name="Senha" />
 						</fieldset>
 
-						<input type="submit" value="entrar" class="input-submit" />
+						<input type="submit" value="entrar" class="input-submit3 input-submit2" />
 					</form>
-
-					<p class="retorno-formulario">Seu cadastro foi efetuado com sucesso!</p>
+	
+					<p class="retorno-formulario retorno2">Seu cadastro foi efetuado com sucesso!</p>
 				</div>
 			</article>
 		</section>
@@ -193,6 +203,18 @@
 
 				<a href="#" title="Clique aqui para configurar" class="perfil-link alterar-senha">Alterar senha</a>
 				<button class="sair">Sair</button>
+				<select name="nota" id=""nota>
+					<option value="0">0</option>
+					<option value="1">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="4">5</option>
+					<option value="4">6</option>
+					<option value="4">7</option>
+					<option value="4">8</option>
+					<option value="4">9</option>
+					<option value="4">10</option>
+				</select>
 			</article>
 		</section>
 	</div>

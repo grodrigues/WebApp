@@ -1,0 +1,203 @@
+/*topo*/
+body{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.canvas-principal{
+	background: url("imagens/bg-prove.png");
+}
+.logo{
+	margin: auto;
+	width: 121px;
+	height: 69px;
+}
+.avatar-usuario{
+	margin: auto;
+	width: 192px;
+	height: 189px;
+	background: #000;
+	border-radius: 100%;
+}
+.canvas-topo{
+	background: 
+}
+
+.canvas-categorias{
+	background:#ededed;
+	position: absolute;
+	z-index: 100;
+	width: 600px;
+	right: 632px;
+	top: 0px;
+	height: 500px;
+}
+/*End topo*/
+/*Receitas*/
+.titulo-receita{
+	width: 100%;
+	height: auto;
+	text-indent: 20px;
+	padding: 4px;
+}
+.img-receita{
+	margin: 0 auto;
+	width: 100%;
+	height: 200px;
+	background: #000;
+	display: inline-block;
+}
+.form-receitas{width: 100%;}
+.receitas-pesquisa{width: 100%;}
+/*End Receitas*/
+/*Acesso*/
+.acesso{
+	background: url("imagens/bg-prove.png");
+}
+.form-titulo{
+	display: none;
+}
+.usuario-cadastrado{
+	background: url("imagens/bg-prove.png");
+	display: inline-block;
+	width: 100%;
+	height: 1000px;
+}
+.esqueci-senha{
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	top: -50px;
+	font-size: 13px !important;
+}
+.esqueci-senha2{
+	height: 900px;
+}
+.cadastro{
+	background: url("imagens/bg-prove.png");
+	display: inline-block;
+	height: 990px;
+	width: 100%;
+}
+.logado{
+	background: url("imagens/bg-prove.png");
+	display: inline-block;
+	height: 990px;
+	width: 100%;
+}
+.form-acesso{
+	margin: auto;
+	width: 80%;
+}
+.form-acesso input{
+	width: 100%;
+	background: none;
+	border-bottom: 1px solid #000;
+	border-top: none;
+	border-left: none;
+	border-right:none; 
+	padding: 10px;
+	font-size: 18px;
+}
+.input-submit{
+	width: 160px !important;	
+	border:none !important;
+	background: #04882d !important;
+	border-radius:10px;
+	padding: 6px auto  6px!important;
+	margin: 25px auto;
+	float: right;
+	color: #fff;
+	transition: all 0.25s ease-in 0s;
+}
+.input-submit:hover{
+	background: green !important;
+}
+.acesso-login{text-indent: -999px;}
+.acesso-senha{text-indent: -999px;}
+.esqueci-senha{width: 50%;position: relative;top:-50px;left: 5px;color: green;font-size: 15px;}
+.input-login{}
+/*End Acesso*/
+/*deslogado*/
+.logo-2 a{
+	background: url("imagens/logo.png") no-repeat;
+	width: 340px;
+	height: 155px;
+	display: block;
+	margin: 100px auto;
+}
+.link-logo2 span{
+	display: none;
+}
+/*End deslogado*/
+/* Esqueci Senha 2 */
+.novo-usuario{
+	height: 900px !important;
+}
+.esqueci-senha2, .logo2 a{
+	margin-top: 100px auto !important;
+}
+.form-esqueci-senha{
+	width: 80%;
+	margin: auto;
+}
+.input-login{
+	width: 100%;
+	background: none;
+	border-bottom: 1px solid #000;
+	border-top: none;
+	border-left: none;
+	border-right:none; 
+	padding: 10px;
+	font-size: 18px;
+}
+.esqueci-senha3{
+	display: none;
+}
+.retorno-formulario{
+	width: 40%;
+	float: right;
+	margin: 21px auto;
+}
+.input-submit2{
+	width: 160px;	
+	border:none;
+	background: #04882d ;
+	border-radius:10px;
+	padding: 12px auto  12px;
+	margin: 25px auto;
+	float: right;
+	color: #fff;
+	padding: 6px;
+	transition: all 0.25s ease-in 0s;
+}
+/* End Esqueci Senha 2 */
+/* Cadastro */
+.cadastro-login{
+	text-indent: -999px;
+}
+.cadastro-senha{
+	text-indent: -999px;
+}
+.form-cadastro{
+	margin: 0 auto;
+	width: 80%;
+}
+.input-cadastro{
+	width: 100%;
+	background: none;
+	border-bottom: 1px solid #000;
+	border-top: none;
+	border-left: none;
+	border-right:none; 
+	padding: 10px;
+	font-size: 18px;
+}
+.input-submit3{
+	padding: 10px;
+}
+.retorno2{
+	margin-right: 20px;
+	display: block;
+	width: 32% !important;
+}
+/*End Cadastro */
